@@ -4,11 +4,20 @@
     box-sizing: border-box;
 }
 
+*::selection {
+    background-color: #EB695B;
+    color: #fff;
+}
+
 body {
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    color: #000;
 }
 
 li {
@@ -33,7 +42,7 @@ h1 span {
 h2 {
     font-size: 20px;
     /* margin-bottom: 10px; */
-    text-decoration: underline;
+    /* text-decoration: underline; */
 }
 
 #time {
@@ -50,7 +59,7 @@ h2 {
 }
 
 .wrapper {
-    margin-top: 50px;
+    margin: 50px 0;
 }
 
 ul li {
